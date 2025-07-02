@@ -1,6 +1,6 @@
 package org.example;
 
-public sealed class Employee permits Manager {
+public abstract sealed class Employee permits Manager {
   private String name;
   private String document;
   private String address;
